@@ -29,6 +29,9 @@ h3 {
 
 .links {
     float:right;
+    background-color: white;
+    height: 72px;
+    width: 631px;
 }
 
 ul {
@@ -69,6 +72,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-top: solid #4aaaa5 5px;
 }
 
 /* Content DIV About ME  */
@@ -82,6 +86,14 @@ p {
     clear: both;
 }
 
+.aboutme {
+    width: 940px;
+    height: 500px;
+    background-color: white;
+    border: solid 1px #777777;
+    padding: 10px;
+}
+
 /* Portfolio Img of Me */
 
 .aboutme-photo {
@@ -89,16 +101,15 @@ p {
     width: 240px;
     display: block;
     float: left;
+    padding: 10px 20px 10px 0;
 }
 
 /* Connect/ Social Icons */
 
 .social {
-    height: 75px;
-    width: 75px;
-    margin: 10px;
-    width: 960px;
-    height: 400px;
+    width: 310px;
+    height: 100px;
+    background-color: white;
 }
 
 /* Contact form */
@@ -120,7 +131,10 @@ p {
 /* Portfolio Images */
 
 .portfolio-images {
-    display: flex;
-    flex-wrap: wrap
-    
+    display: wrap;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    background-color: white;
 }
+
